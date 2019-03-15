@@ -17,7 +17,7 @@ contract OILDToken is ERC20, ERC20Detailed, Ownable {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("OILDToken", "OILD", DECIMALS) {
+    constructor () public ERC20Detailed("Oil Discount", "OILD", DECIMALS) {
         _mint(msg.sender, INITIAL_SUPPLY);
     }
 }
